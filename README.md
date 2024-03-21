@@ -8,3 +8,20 @@ This chatbot was developed by following the guide available at
  
 The guide provides a step-by-step tutorial on how to build a chatbot using HugChat and Streamlit, a popular Python library for creating interactive data applications.
 
+## Note
+Hugchat chatbot class requires a cookie_path parameter to authenticate the server. so remeber to create a cookies.json file as mentioned on the medium post
+
+
+## Usage
+
+To use Ducky, simply enter your question or prompt in the input box and press Enter. Ducky will then respond with an AI-generated answer.
+
+## Installation
+
+You can install the necessary dependencies using pip:
+
+```bash
+pip install streamlit hugchat streamlit_chat streamlit_extras
+```
+
+
